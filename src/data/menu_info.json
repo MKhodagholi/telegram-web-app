@@ -1,86 +1,86 @@
 {
   "1": {
     "title": "لینک دعوت",
-    "callbacl_data": "invite_link"
+    "link": "invite_link"
   },
   "2": {
     "title": "انصراف از بازی",
-    "callbacl_data": "quit_game"
+    "link": "quit_game"
   },
   "3": {
     "title": "تغییر نام",
-    "callbacl_data": "change_name"
+    "link": "change_name"
   },
   "4": {
     "title": "آموزش",
-    "callbacl_data": "learning"
+    "link": "learning"
   },
   "5": {
     "title": "برترین‌ها",
-    "callbacl_data": "best_players"
+    "link": "best_players"
   },
   "6": {
     "title": "مدیریت گروه",
-    "callbacl_data": "group_management"
+    "link": "group_management"
   },
   "7": {
     "title": "پروفایل",
-    "callbacl_data": "profile"
+    "link": "profile"
   },
   "8": {
     "title": "اعتبار",
-    "callbacl_data": "payment"
+    "link": "payment"
   },
   "9": {
     "title": "مدیریت الماس‌ها",
-    "callbacl_data": "diamond_management"
+    "link": "diamond_management"
   },
   "10": {
     "title": "ارتباط با ادمین",
-    "callbacl_data": "customer_service"
+    "link": "customer_service"
   },
   "11": {
     "title": "کسب و کارها",
-    "callbacl_data": "business"
+    "link": "business"
   },
   "12": {
     "title": "انتقال اکانت",
-    "callbacl_data": "transfer_account"
+    "link": "transfer_account"
   },
   "13": {
     "title": "شماره همراه",
-    "callbacl_data": "phone_number"
+    "link": "phone_number"
   },
   "14": {
     "title": "ایونت",
-    "callbacl_data": "event"
+    "link": "event"
   },
   "15": {
     "title": "جوین در بازی",
-    "callbacl_data": "join_game"
+    "link": "join_game"
   },
   "16": {
     "title": "بازی بعدی",
-    "callbacl_data": "next_game"
+    "link": "next_game"
   },
   "17": {
     "title": "گزارش گروه",
-    "callbacl_data": "group_report"
+    "link": "group_report"
   },
   "18": {
     "title": "سوالات متداول",
-    "callbacl_data": "faq"
+    "link": "faq"
   },
   "19": {
     "title": "تغییر جنسیت",
-    "callbacl_data": "change_gender"
+    "link": "change_gender"
   },
   "20": {
     "title": "قوانین",
-    "callbacl_data": "rules"
+    "link": "rules"
   },
   "21": {
     "title": "وضعیت گروه‌ها",
-    "callbacl_data": "stats_group"
+    "link": "stats_group"
   }
 }

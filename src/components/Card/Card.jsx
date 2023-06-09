@@ -1,30 +1,35 @@
-const Card = ({ text }) => {
+import Lottie from "react-lottie";
+
+const Card = ({ card }) => {
+  const { title, animationData, link } = card;
   const cardClickHandler = () => {
-    console.log(text);
+    console.log(link);
     console.log("hello");
-    const data = JSON.stringify({ data: text });
+    const data = JSON.stringify({ data: link });
     window.Telegram.WebApp.sendData(data);
     window.Telegram.WebApp.close();
   };
 
+  const defaultOptions = {
+    loop: true,
+    autoplay: true,
+    animationData: typeof animationData !== "string" ? animationData : null,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice",
+    },
+  };
+
   return (
-    <div
-      style={{
-        border: "1px solid #ccc",
-        borderRadius: "4px",
-        padding: "10px 20px",
-        margin: "0 5px",
-        display: "flex",
-        flexDirection: "column",
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-    >
-      <div style={{ cursor: "pointer" }} onClick={cardClickHandler}>
-        Animation
+    <div className="flex flex-col justify-center items-center rounded-md font-yekan text-xs text-secondaryColor break-keep whitespace-nowrap">
+      <div
+        className="w-[50px] h-[50px] mb-2 cursor-pointer"
+        onClick={cardClickHandler}
+      >
+        {typeof animationData !== "string" ? (
+          <Lottie options={defaultOptions} />
+        ) : null}
       </div>
-      <button onClick={cardClickHandler}>Animation With Button</button>
-      <p>{text}</p>
+      <p>{title}</p>
     </div>
   );
 };

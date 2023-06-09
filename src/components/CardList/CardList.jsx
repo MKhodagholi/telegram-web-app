@@ -2,9 +2,9 @@ import Card from "../Card/Card";
 
 const CardList = ({ cardArray }) => {
   return (
-    <div style={{ display: "flex" }}>
+    <div className="grid grid-cols-3 gap-4 gap-y-16">
       {cardArray.length > 0 ? (
-        cardArray.map((card, index) => <Card key={index} text={card.text} />)
+        cardArray.map((card, index) => <Card key={index} card={card} />)
       ) : (
         <p>no item found!</p>
       )}

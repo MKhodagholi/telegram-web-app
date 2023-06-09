@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Iran Yekan";
+  font-weight: 300;
+  src: url("./assets/font/iranyekanweblight.woff");
+}
+
+@font-face {
+  font-family: "Iran Yekan";
+  font-weight: 400;
+  src: url("./assets/font/iranyekanregular.woff");
+}
+@font-face {
+  font-family: "Iran Yekan";
+  font-weight: 700;
+  src: url("./assets/font/iranyekanwebbold.woff");
+}
