@@ -4,8 +4,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primaryColor: "#1C1C25",
-        secondaryColor: "#5F9CFF",
+        primaryColor: "--tg-theme-bg-color",
+        textColor: "--tg-theme-text-color",
       },
       fontFamily: {
         yekan: "Iran Yekan",

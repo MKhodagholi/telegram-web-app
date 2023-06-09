@@ -27,9 +27,6 @@ import jsonData from "./data/menu_info.json";
 
 function App() {
   window.Telegram.WebApp.ready();
-  window.Telegram.WebApp.HapticFeedback.notificationOccurred = (notif) => {
-    console.log(notif);
-  };
 
   const animationArray = [
     inviteLink,
@@ -66,8 +63,6 @@ function App() {
           return object;
         })
       : [];
-
-  console.log(cardArray);
 
   return (
     <div className="min-h-screen bg-primaryColor p-4">
