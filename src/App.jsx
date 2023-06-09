@@ -18,21 +18,23 @@ import profile from "./assets/animation/profile.json";
 import quitGame from "./assets/animation/quit_game.json";
 import rules from "./assets/animation/rules.json";
 import transferAccount from "./assets/animation/transfer_account.json";
+import changeName from "./assets/animation/change_name.json";
+import changeGender from "./assets/animation/change_gender.json";
+import event from "./assets/animation/event.json";
+import statsGroup from "./assets/animation/stats_group.json";
 
 import jsonData from "./data/menu_info.json";
 
 function App() {
   window.Telegram.WebApp.ready();
-  // window.Telegram.WebApp.MainButton.setText("انتخاب کنید")
-  //   .show()
-  //   .onClick(function () {
-  //     const data = "hello";
-  //   });
+  window.Telegram.WebApp.HapticFeedback.notificationOccurred = (notif) => {
+    console.log(notif);
+  };
 
   const animationArray = [
     inviteLink,
     quitGame,
-    "changeName",
+    changeName,
     learning,
     bestPlayer,
     groupManagement,
@@ -43,17 +45,15 @@ function App() {
     business,
     transferAccount,
     phoneNumber,
-    "event",
+    event,
     joinGame,
     nextGame,
     groupReport,
     faq,
-    "changeGender",
+    changeGender,
     rules,
-    "statsgroup",
+    statsGroup,
   ];
-
-  console.log(jsonData);
 
   const cardArray =
     Object.keys(jsonData).length > 0
