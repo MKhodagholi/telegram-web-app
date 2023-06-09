@@ -1,6 +1,7 @@
 const Card = ({ text }) => {
   const cardClickHandler = () => {
     console.log(text);
+    console.log("hello");
     const data = JSON.stringify({ data: text });
     window.Telegram.WebApp.sendData(data);
     window.Telegram.WebApp.close();
@@ -22,6 +23,7 @@ const Card = ({ text }) => {
       <div style={{ cursor: "pointer" }} onClick={cardClickHandler}>
         Animation
       </div>
+      <button onClick={cardClickHandler}>Animation With Button</button>
       <p>{text}</p>
     </div>
   );

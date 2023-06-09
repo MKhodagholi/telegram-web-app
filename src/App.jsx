@@ -3,11 +3,11 @@ import CardList from "./components/CardList/CardList";
 
 function App() {
   window.Telegram.WebApp.ready();
-  window.Telegram.WebApp.MainButton.setText("انتخاب کنید")
-    .show()
-    .onClick(function () {
-      const data = "hello";
-    });
+  // window.Telegram.WebApp.MainButton.setText("انتخاب کنید")
+  //   .show()
+  //   .onClick(function () {
+  //     const data = "hello";
+  //   });
 
   const cardArray = [
     { text: "invite_link" },

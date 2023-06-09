@@ -4,7 +4,7 @@ const CardList = ({ cardArray }) => {
   return (
     <div style={{ display: "flex" }}>
       {cardArray.length > 0 ? (
-        cardArray.map((card) => <Card text={card.text} />)
+        cardArray.map((card, index) => <Card key={index} text={card.text} />)
       ) : (
         <p>no item found!</p>
       )}
