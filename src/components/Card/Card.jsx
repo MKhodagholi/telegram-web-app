@@ -1,6 +1,7 @@
 const Card = ({ text }) => {
   const cardClickHandler = () => {
-    const data = text;
+    console.log(text);
+    const data = JSON.stringify({ data: text });
     window.Telegram.WebApp.sendData(data);
     window.Telegram.WebApp.close();
   };
