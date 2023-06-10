@@ -36,7 +36,7 @@ const Card = ({ card }) => {
   };
 
   return (
-    <div className="flex flex-col justify-center items-center rounded-md font-yekan text-xs text-textColor break-keep whitespace-nowrap bg-white text-black">
+    <div className="flex flex-col justify-center items-center rounded-md font-yekan text-xs text-textColor break-keep whitespace-nowrap text-black">
       <div
         className="w-[50px] h-[50px] mb-2 cursor-pointer"
         onClick={cardClickHandler}
