@@ -6,13 +6,12 @@ const Card = ({ card }) => {
   const { title, animationData, link } = card;
   const cardClickHandler = () => {
     const data = link;
-    window.Telegram.WebView.postEvent(
-      "web_app_data_send",
-      false,
-
-      { data }
-    );
-    if (tele.sendData) tele.sendData(JSON.stringify({ data }));
+    // window.Telegram.WebView.postEvent(
+    //   "web_app_data_send",
+    //   false,
+    //   { data }
+    // );
+    // if (tele.sendData) tele.sendData(JSON.stringify({ data }));
     tele.close();
   };
 
