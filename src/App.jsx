@@ -24,8 +24,14 @@ import event from "./assets/animation/event.json";
 import statsGroup from "./assets/animation/stats_group.json";
 
 import jsonData from "./data/menu_info.json";
+import { useState } from "react";
 
 function App() {
+
+  // const initData = () => {}
+
+  // const [dataUser, setDataUser] = useState();
+
   window.Telegram.WebApp.ready();
 
   const animationArray = [

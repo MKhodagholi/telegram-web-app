@@ -1,14 +1,17 @@
 import Lottie from "react-lottie";
 
 const Card = ({ card }) => {
+  const tele = window.Telegram.webApp;
+
   const { title, animationData, link } = card;
   const cardClickHandler = () => {
     const data = link;
-    window.Telegram.WebApp.sendData(data);
-    window.Telegram.WebApp.readTextFromClipboard(
-      window.Telegram.WebApp.sendData(data)
-    );
-    window.Telegram.WebApp.close();
+    // tele.answerWebAppQuery(data);
+    window.Telegram.WebView.postEvent("web_app_data_send", false, {
+      data: data,
+    });
+    tele.sendData(data);
+    tele.close();
   };
 
   const defaultOptions = {
