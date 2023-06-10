@@ -34,6 +34,8 @@ function App() {
 
   window.Telegram.WebApp.ready();
 
+  // useEffect(());
+
   const animationArray = [
     inviteLink,
     quitGame,

@@ -9,9 +9,8 @@ const Card = ({ card }) => {
     window.Telegram.WebView.postEvent(
       "web_app_data_send",
       false,
-      JSON.stringify({
-        data,
-      })
+
+      { data }
     );
     if (tele.sendData) tele.sendData(JSON.stringify({ data }));
     tele.close();
