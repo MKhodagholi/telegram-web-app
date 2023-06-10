@@ -11,9 +11,16 @@ const Card = ({ card }) => {
     //   false,
     //   { data }
     // );
+    console.log('its happend');
     // if (tele.sendData) tele.sendData(JSON.stringify({ data }));
     tele.close();
   };
+  
+  const cardTouchHandler = () => {
+    console.log('its happend');
+    tele.close();
+
+  }
 
   const defaultOptions = {
     loop: true,
@@ -29,6 +36,7 @@ const Card = ({ card }) => {
       <div
         className="w-[50px] h-[50px] mb-2 cursor-pointer"
         onClick={cardClickHandler}
+        onTouchStart={cardTouchHandler}
       >
         {typeof animationData !== "string" ? (
           <Lottie options={defaultOptions} />
