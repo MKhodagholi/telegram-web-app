@@ -8,16 +8,23 @@ const Card = ({ card }) => {
     const data = link;
     // window.Telegram.WebView.postEvent("web_app_data_send", false, { data });
 
-    console.log();
+    // if (tele.showPopup)
+    //   tele.showPopup(
+    //     JSON.stringify({
+    //       title: "hello world",
+    //       message: "what is thsi?",
+    //       buttons: [{ type: "ok" }, { type: "cancel" }],
+    //     })
+    //   );
 
     if (tele.sendData) tele.sendData({ data });
     tele.close();
   };
 
-  const cardTouchHandler = () => {
-    console.log("its happend");
-    tele.close();
-  };
+  // const cardTouchHandler = () => {
+  //   console.log("its happend");
+  //   tele.close();
+  // };
 
   const defaultOptions = {
     loop: true,
@@ -33,7 +40,7 @@ const Card = ({ card }) => {
       <div
         className="w-[50px] h-[50px] mb-2 cursor-pointer"
         onClick={cardClickHandler}
-        onTouchStart={cardTouchHandler}
+        // onTouchStart={cardTouchHandler}
       >
         {typeof animationData !== "string" ? (
           <Lottie options={defaultOptions} />

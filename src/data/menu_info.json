@@ -1,86 +1,86 @@
 {
-  "1": {
-    "title": "لینک دعوت",
-    "link": "invite_link"
-  },
-  "2": {
-    "title": "انصراف از بازی",
-    "link": "quit_game"
-  },
-  "3": {
-    "title": "تغییر نام",
-    "link": "change_name"
-  },
-  "4": {
-    "title": "آموزش",
-    "link": "learning"
-  },
-  "5": {
-    "title": "برترین‌ها",
-    "link": "best_players"
-  },
-  "6": {
-    "title": "مدیریت گروه",
-    "link": "group_management"
-  },
-  "7": {
-    "title": "پروفایل",
-    "link": "profile"
-  },
-  "8": {
-    "title": "اعتبار",
-    "link": "payment"
-  },
-  "9": {
-    "title": "مدیریت الماس‌ها",
-    "link": "diamond_management"
-  },
-  "10": {
-    "title": "ارتباط با ادمین",
-    "link": "customer_service"
-  },
-  "11": {
-    "title": "کسب و کارها",
-    "link": "business"
-  },
-  "12": {
-    "title": "انتقال اکانت",
-    "link": "transfer_account"
-  },
-  "13": {
-    "title": "شماره همراه",
-    "link": "phone_number"
-  },
-  "14": {
-    "title": "ایونت",
-    "link": "event"
-  },
-  "15": {
-    "title": "جوین در بازی",
-    "link": "join_game"
-  },
-  "16": {
-    "title": "بازی بعدی",
-    "link": "next_game"
-  },
-  "17": {
-    "title": "گزارش گروه",
-    "link": "group_report"
-  },
-  "18": {
-    "title": "سوالات متداول",
-    "link": "faq"
-  },
-  "19": {
-    "title": "تغییر جنسیت",
-    "link": "change_gender"
-  },
-  "20": {
-    "title": "قوانین",
-    "link": "rules"
-  },
-  "21": {
-    "title": "وضعیت گروه‌ها",
-    "link": "stats_group"
-  }
-}
+    1:{
+        "title":"لینک دعوت",
+        "callbacl_data":"invite_link"
+    },
+    2:{
+        "title":"انصراف از بازی",
+        "callbacl_data":"quit_game"
+    },
+    3:{
+        "title":"تغییر نام",
+        "callbacl_data":"change_name"
+    },
+    4:{
+        "title":"اعتبار",
+        "callbacl_data":"payment"
+    },
+    5:{
+        "title":"پروفایل",
+        "callbacl_data":"profile"
+    },
+    6:{
+        "title":"مدیریت گروه",
+        "callbacl_data":"group_management"
+    },
+    7:{
+        "title":"سوالات متداول",
+        "callbacl_data":"faq"
+    },
+    8:{
+        "title":"ارتباط با ادمین",
+        "callbacl_data":"customer_service"
+    },
+    9:{
+        "title":"مدیریت الماس‌ها",
+        "callbacl_data":"diamond_management"
+    },
+    10:{
+        "title":"آموزش",
+        "callbacl_data":"learning"
+    },
+    11:{
+        "title":"برترین‌ها",
+        "callbacl_data":"best_players"
+    },
+    12:{
+        "title":"قوانین",
+        "callbacl_data":"rules"
+    },
+    13:{
+        "title":"جوین در بازی",
+        "callbacl_data":"join_game"
+    },
+    14:{
+        "title":"بازی بعدی",
+        "callbacl_data":"next_game"
+    },
+    15:{
+        "title":"شماره همراه",
+        "callbacl_data":"phone_number"
+    },
+    16:{
+        "title":"پخش کارت",
+        "callbacl_data":"event"
+    },
+    17:{
+        "title":"انتقال اکانت",
+        "callbacl_data":"transfer_account"
+    },
+    18:{
+        "title":"تغییر جنسیت",
+        "callbacl_data":"change_gender"
+    },
+    19:{
+        "title":"کسب و کارها",
+        "callbacl_data":"business"
+    },
+    20:{
+        "title":"وضعیت گروه‌ها",
+        "callbacl_data":"stats_group"
+    },
+    21:{
+        "title":"گزارش گروه",
+        "callbacl_data":"group_report"
+    },
+},
