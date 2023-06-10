@@ -22,7 +22,7 @@ const Card = ({ card }) => {
   };
 
   return (
-    <div className="flex flex-col justify-center items-center rounded-md font-yekan text-xs text-secondaryColor break-keep whitespace-nowrap">
+    <div className="flex flex-col justify-center items-center rounded-md font-yekan text-xs text-textColor break-keep whitespace-nowrap">
       <div
         className="w-[50px] h-[50px] mb-2 cursor-pointer"
         onClick={cardClickHandler}

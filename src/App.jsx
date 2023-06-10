@@ -65,7 +65,7 @@ function App() {
       : [];
 
   return (
-    <div className="min-h-screen bg-primaryColor p-4">
+    <div className="min-h-screen bg-secondaryColor p-4">
       <CardList cardArray={cardArray} />
     </div>
   );

@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       colors: {
         primaryColor: "--tg-theme-bg-color",
+        secondaryColor: "--tg-theme-secondary-bg-color",
         textColor: "--tg-theme-text-color",
       },
       fontFamily: {
