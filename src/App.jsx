@@ -27,12 +27,15 @@ import jsonData from "./data/menu_info.json";
 import { useState } from "react";
 
 function App() {
-
   // const initData = () => {}
 
   // const [dataUser, setDataUser] = useState();
 
   window.Telegram.WebApp.ready();
+
+  window.Telegram.WebApp.MainButton.setText("CLOSE WEBVIEW")
+    .show()
+    .onClick(() => window.Telegram.close());
 
   // useEffect(());
 
