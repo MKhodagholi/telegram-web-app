@@ -1,16 +1,19 @@
 import Lottie from "react-lottie";
 
 const Card = ({ card }) => {
-  const tele = window.Telegram.webApp;
+  const tele = window.Telegram.WebApp;
 
   const { title, animationData, link } = card;
   const cardClickHandler = () => {
     const data = link;
-    // tele.answerWebAppQuery(data);
-    window.Telegram.WebView.postEvent("web_app_data_send", false, {
-      data: data,
-    });
-    tele.sendData(data);
+    window.Telegram.WebView.postEvent(
+      "web_app_data_send",
+      false,
+      JSON.stringify({
+        data,
+      })
+    );
+    if (tele.sendData) tele.sendData(JSON.stringify({ data }));
     tele.close();
   };
 
