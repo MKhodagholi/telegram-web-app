@@ -3,12 +3,8 @@ import Lottie from "react-lottie";
 const Card = ({ card }) => {
   const { title, animationData, link } = card;
   const cardClickHandler = () => {
-    console.log(link);
-    console.log("hello");
     const data = link;
     window.Telegram.WebApp.sendData(data);
-    window.Telegram.WebApp.notificationOccurred('error');
-    // console.log(window.Telegram.WebApp.notificationOccurred());
     window.Telegram.WebApp.close();
   };
 
