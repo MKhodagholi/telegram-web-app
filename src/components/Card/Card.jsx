@@ -5,6 +5,9 @@ const Card = ({ card }) => {
   const cardClickHandler = () => {
     const data = link;
     window.Telegram.WebApp.sendData(data);
+    window.Telegram.WebApp.readTextFromClipboard(
+      window.Telegram.WebApp.sendData(data)
+    );
     window.Telegram.WebApp.close();
   };
 
