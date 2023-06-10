@@ -6,24 +6,19 @@ const Card = ({ card }) => {
   const { title, animationData, link } = card;
   const cardClickHandler = () => {
     const data = link;
-    // window.Telegram.WebView.postEvent(
-    //   "web_app_data_send",
-    //   false,
-    //   { data }
-    // );
-    
-    console.log('its happend');
-    // if (tele.sendData) tele.sendData(JSON.stringify({ data }));
+    window.Telegram.WebView.postEvent("web_app_data_send", false, { data });
+
+    console.log("its happend");
+    if (tele.sendData) tele.sendData(JSON.stringify({ data }));
     tele.close();
   };
 
-  window.Telegram.WebView.onEvent('main_button_pressed', cardClickHandler);
-  
-  const cardTouchHandler = () => {
-    console.log('its happend');
-    tele.close();
+  window.Telegram.WebView.onEvent("main_button_pressed", cardClickHandler);
 
-  }
+  const cardTouchHandler = () => {
+    console.log("its happend");
+    tele.close();
+  };
 
   const defaultOptions = {
     loop: true,
