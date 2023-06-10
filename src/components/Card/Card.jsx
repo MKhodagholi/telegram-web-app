@@ -17,7 +17,7 @@ const Card = ({ card }) => {
     //     })
     //   );
 
-    if (tele.sendData) tele.sendData({ data });
+    if (tele.sendData) tele.sendData(JSON.stringify({ data }));
     tele.close();
   };
 
