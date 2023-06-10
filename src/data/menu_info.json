@@ -1,86 +1,86 @@
 {
   "1": {
     "title": "لینک دعوت",
-    "callbacl_data": "invite_link"
+    "callback_data": "invite_link"
   },
   "2": {
     "title": "انصراف از بازی",
-    "callbacl_data": "quit_game"
+    "callback_data": "quit_game"
   },
   "3": {
     "title": "تغییر نام",
-    "callbacl_data": "change_name"
+    "callback_data": "change_name"
   },
   "4": {
     "title": "اعتبار",
-    "callbacl_data": "payment"
+    "callback_data": "payment"
   },
   "5": {
     "title": "پروفایل",
-    "callbacl_data": "profile"
+    "callback_data": "profile"
   },
   "6": {
     "title": "مدیریت گروه",
-    "callbacl_data": "group_management"
+    "callback_data": "group_management"
   },
   "7": {
     "title": "سوالات متداول",
-    "callbacl_data": "faq"
+    "callback_data": "faq"
   },
   "8": {
     "title": "ارتباط با ادمین",
-    "callbacl_data": "customer_service"
+    "callback_data": "customer_service"
   },
   "9": {
     "title": "مدیریت الماس‌ها",
-    "callbacl_data": "diamond_management"
+    "callback_data": "diamond_management"
   },
   "10": {
     "title": "آموزش",
-    "callbacl_data": "learning"
+    "callback_data": "learning"
   },
   "11": {
     "title": "برترین‌ها",
-    "callbacl_data": "best_players"
+    "callback_data": "best_players"
   },
   "12": {
     "title": "قوانین",
-    "callbacl_data": "rules"
+    "callback_data": "rules"
   },
   "13": {
     "title": "جوین در بازی",
-    "callbacl_data": "join_game"
+    "callback_data": "join_game"
   },
   "14": {
     "title": "بازی بعدی",
-    "callbacl_data": "next_game"
+    "callback_data": "next_game"
   },
   "15": {
     "title": "شماره همراه",
-    "callbacl_data": "phone_number"
+    "callback_data": "phone_number"
   },
   "16": {
     "title": "پخش کارت",
-    "callbacl_data": "event"
+    "callback_data": "event"
   },
   "17": {
     "title": "انتقال اکانت",
-    "callbacl_data": "transfer_account"
+    "callback_data": "transfer_account"
   },
   "18": {
     "title": "تغییر جنسیت",
-    "callbacl_data": "change_gender"
+    "callback_data": "change_gender"
   },
   "19": {
     "title": "کسب و کارها",
-    "callbacl_data": "business"
+    "callback_data": "business"
   },
   "20": {
     "title": "وضعیت گروه‌ها",
-    "callbacl_data": "stats_group"
+    "callback_data": "stats_group"
   },
   "21": {
     "title": "گزارش گروه",
-    "callbacl_data": "group_report"
+    "callback_data": "group_report"
   }
 }

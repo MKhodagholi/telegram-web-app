@@ -3,9 +3,10 @@ import Lottie from "react-lottie";
 const Card = ({ card }) => {
   const tele = window.Telegram.WebApp;
 
-  const { title, animationData, link } = card;
+  
+  const { title, animationData, callback_data } = card;
   const cardClickHandler = () => {
-    const data = link;
+    const data = callback_data;
     // window.Telegram.WebView.postEvent("web_app_data_send", false, { data });
 
     // if (tele.showPopup)
