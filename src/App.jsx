@@ -33,9 +33,9 @@ function App() {
 
   window.Telegram.WebApp.ready();
 
-  window.Telegram.WebApp.MainButton.setText("CLOSE WEBVIEW")
-    .show()
-    .onClick(() => window.Telegram.close());
+  // window.Telegram.WebApp.MainButton.setText("CLOSE WEBVIEW")
+  //   .show()
+  //   .onClick(() => window.Telegram.close());
 
   // useEffect(());
 

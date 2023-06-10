@@ -11,10 +11,13 @@ const Card = ({ card }) => {
     //   false,
     //   { data }
     // );
+    
     console.log('its happend');
     // if (tele.sendData) tele.sendData(JSON.stringify({ data }));
     tele.close();
   };
+
+  window.Telegram.WebView.onEvent('main_button_pressed', cardClickHandler);
   
   const cardTouchHandler = () => {
     console.log('its happend');
